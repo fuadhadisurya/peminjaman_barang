@@ -15,7 +15,7 @@
     {
     ?>
     <h2 style="text-align: center"><u>SURAT KETERANGAN PEMINJAMAN BARANG KAMPUS</u></h2>
-    <h3 style="text-align: center">NOMOR : 13</h3>
+    <h3 style="text-align: center">NOMOR : <?php echo $row['no_surat']; ?></h3>
     Berdasarkan SPB Nomor : <?php echo $row['no_surat']; ?> Tanggal <?php echo $row['tanggal_pinjam']; echo" " ;echo $row['tujuan']?>
     <br>
     masing masing yang bertanda tangan dibawah ini :
@@ -23,7 +23,7 @@
     <br>
     <table>
         <tr>
-            <td>1. <?php echo $row['nama_pegawai'];?></td>
+            <td>1. <?php echo $row['nama_admin'];?></td>
             <td> : </td>
             <td>AN. Kepala Bagian Peminjaman Barang Kampus Politeknik Negeri Indramayu Selanjutnya disebut <b>PIHAK PERTAMA</b></td>
         </tr>

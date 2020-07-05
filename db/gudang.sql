@@ -53,7 +53,7 @@ INSERT INTO `admin` (`id`, `nama`, `email`, `password`, `no_hp`, `alamat`) VALUE
 CREATE TABLE `barang` (
   `id` int(11) NOT NULL,
   `kode_barang` varchar(10) NOT NULL,
-  `nama` varchar(20) NOT NULL,
+  `nama` varchar(225) NOT NULL,
   `jenis` varchar(20) NOT NULL,
   `merk` varchar(20) NOT NULL,
   `model` varchar(20) NOT NULL,
@@ -128,7 +128,7 @@ CREATE TABLE `transaksi` (
   `id_admin` int(10) NOT NULL,
   `id_pegawai` int(10) DEFAULT NULL,
   `id_mahasiswa` int(10) DEFAULT NULL,
-  `id_barang` int(10) NOT NULL,
+  `id_barang` varchar(10) NOT NULL,
   `jumlah_pinjam` int(11) NOT NULL,
   `no_surat` varchar(50) NOT NULL,
   `tanggal_pinjam` date NOT NULL,
