@@ -60,11 +60,11 @@ move_uploaded_file($foto_temp,'../image/pegawai/'.$foto_name);
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid">
-                        <h1 class="mt-4">Edit Mahasiswa</h1>
+                        <h1 class="mt-4">Edit Pegawai</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-                            <li class="breadcrumb-item"><a href="data_mahasiswa.php">Data Mahasiswa</a></li>
-                            <li class="breadcrumb-item active">Edit Mahasiswa</li>
+                            <li class="breadcrumb-item"><a href="data_pegawai.php">Data Pegawai</a></li>
+                            <li class="breadcrumb-item active">Edit Pegawai</li>
                         </ol>
                         <div class="card mb-4">
                             <div class="card-body">
@@ -153,7 +153,7 @@ move_uploaded_file($foto_temp,'../image/pegawai/'.$foto_name);
                                     <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#update" value="<?php echo $row['id'] ?>">
                                         Update
                                     </button>
-                                    <a href="data_mahasiswa.php" class="btn btn-secondary btn-block">Kembali</a>
+                                    <a href="data_pegawai.php" class="btn btn-secondary btn-block">Kembali</a>
                                     <!-- Modal konfirmasi-->
                                     <div class="modal fade" id="update" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog" role="document">

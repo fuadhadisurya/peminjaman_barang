@@ -7,11 +7,11 @@ include('include/config.php');
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid">
-                        <h1 class="mt-4">Detail pegawai</h1>
+                        <h1 class="mt-4">Detail Barang</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-                            <li class="breadcrumb-item"><a href="data_pegawai.php">Data pegawai</a></li>
-                            <li class="breadcrumb-item active">Detail pegawai</li>
+                            <li class="breadcrumb-item"><a href="data_barang.php">Data Barang</a></li>
+                            <li class="breadcrumb-item active">Detail Barang</li>
                         </ol>
                         
                         <div class="card mb-4">
